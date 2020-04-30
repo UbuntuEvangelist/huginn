@@ -34,7 +34,7 @@ end
 gem 'twilio-ruby', '~> 3.11.5'    # TwilioAgent
 gem 'ruby-growl', '~> 4.1.0'      # GrowlAgent
 gem 'net-ftp-list', '~> 3.2.8'    # FtpsiteAgent
-gem 'wunderground', '~> 1.2.0'    # WeatherAgent
+gem 'wunderground', '~> 1.2.0' # WeatherAgent
 gem 'forecast_io', '~> 2.0.0'     # WeatherAgent
 gem 'rturk', '~> 2.12.1'          # HumanTaskAgent
 gem 'hipchat', '~> 1.2.0'         # HipchatAgent
@@ -107,7 +107,7 @@ gem 'httparty', '~> 0.13'
 gem 'httmultiparty', '~> 0.3.16'
 gem 'jquery-rails', '~> 4.2.1'
 gem 'huginn_agent', '~> 0.4.0'
-gem 'json', '~> 1.8.1'
+gem 'json', '~> 2.3.0'
 gem 'jsonpath', '~> 0.8.3'
 gem 'kaminari', github: "amatsuda/kaminari", branch: '0-17-stable', ref: 'abbf93d557208ee1d0b612c612cd079f86ed54f4'
 gem 'kramdown', '~> 1.3.3'
