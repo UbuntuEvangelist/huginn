@@ -77,8 +77,8 @@ gem 'listen', '~> 3.0.5', require: false
 gem 'aws-sdk-core', '~> 2.2.15'
 
 # Optional Services.
-gem 'omniauth-37signals'          # BasecampAgent
-gem 'omniauth-wunderlist'
+gem 'omniauth-37signals'          , '>= 1.0.5' # BasecampAgent
+gem 'omniauth-wunderlist', '>= 0.0.2'
 
 # Bundler <1.5 does not recognize :x64_mingw as a valid platform name.
 # Unfortunately, it can't self-update because it errors when encountering :x64_mingw.
@@ -116,7 +116,7 @@ gem 'loofah', '~> 2.0'
 gem 'mini_magick'
 gem 'multi_xml'
 gem 'nokogiri'
-gem 'omniauth', '~> 1.3.1'
+gem 'omniauth', '~> 2.0.0'
 gem 'rails', '~> 5.1.1'
 gem 'rufus-scheduler', '~> 3.3.2', require: false
 gem 'sass-rails', '~> 5.0'
