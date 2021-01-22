@@ -60,15 +60,15 @@ gem 'tumblr_client', github: 'tumblr/tumblr_client', branch: 'master', ref: '0c5
 gem 'omniauth-tumblr', '~> 1.2'
 
 # Dropbox Agents
-gem 'dropbox-api'
-gem 'omniauth-dropbox'
+gem 'dropbox-api', '>= 0.4.2'
+gem 'omniauth-dropbox', '>= 0.2.0'
 
 # UserLocationAgent
 gem 'haversine'
 
 # EvernoteAgent
-gem 'omniauth-evernote'
-gem 'evernote_oauth'
+gem 'omniauth-evernote', '>= 1.2.1'
+gem 'evernote_oauth', '>= 0.2.3'
 
 # LocalFileAgent (watch functionality)
 gem 'listen', '~> 3.0.5', require: false
