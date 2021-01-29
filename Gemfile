@@ -61,13 +61,13 @@ gem 'omniauth-tumblr', '~> 1.2'
 
 # Dropbox Agents
 gem 'dropbox-api'
-gem 'omniauth-dropbox'
+gem 'omniauth-dropbox', '>= 0.2.0'
 
 # UserLocationAgent
 gem 'haversine'
 
 # EvernoteAgent
-gem 'omniauth-evernote'
+gem 'omniauth-evernote', '>= 1.2.1'
 gem 'evernote_oauth'
 
 # LocalFileAgent (watch functionality)
