@@ -88,14 +88,14 @@ unless Gem::Version.new(Bundler::VERSION) >= Gem::Version.new('1.5.0')
 end
 
 gem 'ace-rails-ap', '~> 2.0.1'
-gem 'bootstrap-kaminari-views', '~> 0.0.3'
+gem 'bootstrap-kaminari-views', '~> 0.0.5'
 gem 'bundler', '>= 1.5.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'daemons', '~> 1.1.9'
 gem 'delayed_job', github: 'dsander/delayed_job', branch: 'rails51'
 gem 'delayed_job_active_record', github: 'dsander/delayed_job_active_record', branch: 'rails5'
 gem 'devise', '~> 4.3.0'
-gem 'em-http-request', '~> 1.1.2'
+gem 'em-http-request', '~> 1.1.6'
 gem 'faraday', '~> 0.9'
 gem 'faraday_middleware', github: 'lostisland/faraday_middleware', branch: 'master'  # '>= 0.10.1'
 gem 'feedjira', '~> 2.1'
@@ -152,7 +152,7 @@ group :development do
     gem 'capybara-screenshot'
     gem 'capybara-select2', require: false
     gem 'delorean'
-    gem 'poltergeist'
+    gem 'poltergeist', '>= 1.8.1'
     gem 'pry-rails'
     gem 'pry-byebug'
     gem 'rr'
