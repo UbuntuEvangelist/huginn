@@ -34,7 +34,7 @@ end
 gem 'twilio-ruby', '~> 3.11.5'    # TwilioAgent
 gem 'ruby-growl', '~> 4.1.0'      # GrowlAgent
 gem 'net-ftp-list', '~> 3.2.8'    # FtpsiteAgent
-gem 'wunderground', '~> 1.2.0'    # WeatherAgent
+gem 'wunderground', '~> 1.2.0' # WeatherAgent
 gem 'forecast_io', '~> 2.0.0'     # WeatherAgent
 gem 'rturk', '~> 2.12.1'          # HumanTaskAgent
 gem 'hipchat', '~> 1.2.0'         # HipchatAgent
@@ -149,10 +149,10 @@ group :development do
   group :test do
     gem 'coveralls', '~> 0.7.4', require: false
     gem 'capybara', '~> 2.13.0'
-    gem 'capybara-screenshot'
-    gem 'capybara-select2', require: false
+    gem 'capybara-screenshot', '>= 1.0.17'
+    gem 'capybara-select2', '>= 1.0.1', require: false
     gem 'delorean'
-    gem 'poltergeist'
+    gem 'poltergeist', '>= 1.8.1'
     gem 'pry-rails'
     gem 'pry-byebug'
     gem 'rr'
@@ -163,7 +163,7 @@ group :development do
     gem 'rails-controller-testing'
     gem 'shoulda-matchers'
     gem 'vcr'
-    gem 'webmock', '~> 2.3'
+    gem 'webmock', '~> 2.3', '>= 2.3.2'
   end
 end
 
