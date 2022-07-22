@@ -88,9 +88,9 @@ unless Gem::Version.new(Bundler::VERSION) >= Gem::Version.new('1.5.0')
 end
 
 gem 'ace-rails-ap', '~> 2.0.1'
-gem 'bootstrap-kaminari-views', '~> 0.0.3'
+gem 'bootstrap-kaminari-views', '~> 0.0.5'
 gem 'bundler', '>= 1.5.0'
-gem 'coffee-rails', '~> 4.2'
+gem 'coffee-rails', '~> 4.2', '>= 4.2.1'
 gem 'daemons', '~> 1.1.9'
 gem 'delayed_job', github: 'dsander/delayed_job', branch: 'rails51'
 gem 'delayed_job_active_record', github: 'dsander/delayed_job_active_record', branch: 'rails5'
@@ -105,7 +105,7 @@ gem 'geokit', '~> 1.8.4'
 gem 'geokit-rails', '~> 2.2.0'
 gem 'httparty', '~> 0.13'
 gem 'httmultiparty', '~> 0.3.16'
-gem 'jquery-rails', '~> 4.2.1'
+gem 'jquery-rails', '~> 4.2.2'
 gem 'huginn_agent', '~> 0.4.0'
 gem 'json', '~> 1.8.1'
 gem 'jsonpath', '~> 0.8.3'
@@ -119,7 +119,7 @@ gem 'nokogiri'
 gem 'omniauth', '~> 1.3.1'
 gem 'rails', '~> 5.1.1'
 gem 'rufus-scheduler', '~> 3.3.2', require: false
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0', '>= 5.0.6'
 gem 'select2-rails', '~> 3.5.4'
 gem 'spectrum-rails'
 gem 'therubyracer', '~> 0.12.3'
@@ -134,7 +134,7 @@ group :development do
   gem 'guard-rspec', '~> 4.6.4'
   gem 'rack-livereload', '~> 0.3.16'
   gem 'letter_opener_web', '~> 1.3.1'
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 3.3.1'
 
   gem 'capistrano', '~> 3.4.0'
   gem 'capistrano-rails', '~> 1.1'
@@ -174,7 +174,7 @@ end
 # Platform requirements.
 require 'rbconfig'
 gem 'ffi', '>= 1.9.4'		# required by typhoeus; 1.9.4 has fixes for *BSD.
-gem 'tzinfo', '>= 1.2.0'	# required by rails; 1.2.0 has support for *BSD and Solaris.
+gem 'tzinfo', '>= 1.2.10' # required by rails; 1.2.0 has support for *BSD and Solaris.
 # Windows does not have zoneinfo files, so bundle the tzinfo-data gem.
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 # BSD systems require rb-kqueue for "listen" to avoid polling for changes.
