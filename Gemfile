@@ -116,7 +116,7 @@ gem 'loofah', '~> 2.0'
 gem 'mini_magick'
 gem 'multi_xml'
 gem 'nokogiri'
-gem 'omniauth', '~> 1.3.1'
+gem 'omniauth', '~> 2.0.0'
 gem 'rails', '~> 5.1.1'
 gem 'rufus-scheduler', '~> 3.3.2', require: false
 gem 'sass-rails', '~> 5.0'
